@@ -1,0 +1,175 @@
+body{
+	font-size:20px;
+	background: black;
+	/*scroll:false;*/
+	/*overflow: hidden;*/
+}
+.container-fluid.print h3,.container-fluid.print h4,.container-fluid.print h5,.container-fluid.print h6{
+	font-weight: normal!important;
+}
+
+#year,#month,#day{
+	width:100px;
+}
+
+.container-fluid.print{display:none;}
+.container-fluid.print {
+	color:#333;
+}
+.container-fluid.print h4{
+	margin-left:30px;
+}
+.container-fluid.print h5{
+	margin-left:60px;
+}
+
+.report{
+	padding:0!important;
+}
+.container.report{display: block;}
+
+.question-outer{
+	/*height:100%;*/
+	padding-top: 150px;
+	background-attachment:fixed;
+	background:url('assets/1.jpg') no-repeat bottom right;;
+}
+.question-inner{
+	padding:25px;
+	background:url('assets/logo.jpg') no-repeat 110% 6px;
+	background-color:white;
+}
+.question-inner .header{
+	border-bottom:1px solid #ccc;
+/*	background:white;*/
+}
+.question-inner .header h2{
+	width:400px;
+}
+.question-inner .body{
+	padding:20px 0;
+/*	background:#ccc;*/
+}
+.question-inner .footer{
+	border-top:1px solid #ccc;	
+	padding:10px 0;
+/*	background:#ccc;*/
+}
+.result{
+	width: 970px;
+	background:#eee;
+	padding:20px;
+}
+.result .panel{
+	position:relative;
+	background:white;
+	border:2px solid #ccc;
+	margin-top: 20px;
+}
+
+.result .panel .info{
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 40px;
+	height: 40px;
+	background:url('./assets/result.png');
+}
+.result .panel .section{
+	padding:10px 40px;
+}
+.info.part4{
+	top:130px!important;
+	width: 100%!important;
+	height:20px!important;
+	background-position: 0px -41px!important;
+}
+.info.part1{
+	background-position: 0px 0px!important;
+}
+.info.part2{
+	background-position:-40px 0px!important;
+}
+.info.part3{
+	background-position:-80px 0px!important;
+}
+.label-red, .badge-red{
+	background:#E1002C;
+	border-radius:3px;
+	padding:3px 8px;
+}
+.bad_habit_bg{
+	background:url('assets/bad_habit_bg.png');
+}
+.demo1{
+	background:url('assets/demo1.jpg') no-repeat top right;
+}
+b{
+	display: block;
+	float: left;
+	margin: 0 8px 0 0;
+	height: 22px;
+	width: 65px;
+	background: url('assets/bad_habit_bg.png') no-repeat;
+	text-align: center;
+	font-size: 13px;
+	text-shadow: 1px 1px 1px #A50420;
+	line-height: 22px;
+	font-weight: bold;
+	color: #FFF;
+}
+
+.btn-red{
+ 	background-color: #E1002C;
+    background-image: -moz-linear-gradient(center top , #E1002C, red);
+    background-repeat: repeat-x;
+    border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25);
+    color: #FFFFFF;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);	
+}
+.btn-red:focus{
+	background-color:#E1002C;
+}
+hr.mini{
+	margin:5px;
+}
+.report h3{color:#E1002C;}
+.btn.bmi{
+	margin-right: 20px
+}
+h4 .icon-play{
+	margin-top: 4px;
+}
+.red{
+	color:#E1002C;
+}
+.orange{
+	color:#FF6C39;
+}
+.yellow{
+	color:#FFA000;
+}
+.green{
+	color:#32AD68;
+}
+.bar{
+/*	position: absolute;
+	left: 0;
+	top: 0;*/
+	width: 100%;
+	height: 20px;
+	background:url('./assets/result.png') ;
+}
+.report .tooltip{
+	position: absolute;
+	
+}
+.your{
+	top:140px;
+}
+.other{
+	top:120px;
+}
+.row.center{
+	text-align: center;
+}

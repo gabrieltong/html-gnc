@@ -1,0 +1,33 @@
+body{
+	background: white;
+}
+.container-fluid.print{
+	display:block;
+	/*font-family: '微软雅黑',Tahoma,Geneva,sans-serif	!important*/
+}
+.container-fluid.print .info span{
+  padding:0 5px;
+}
+.datepicker{
+	display: none!important;
+}
+.datepicker-days{
+	display: none!important;	
+}
+.container.report{display: none;}
+.table{
+  margin:20px;
+}
+.table{
+  border:1px solid #ccc;
+}
+.container-fluid.print h3,.container-fluid.print h5,.container-fluid.print h6{
+	font-weight: normal!important;
+}
+.container-fluid.print h4,.container-fluid.print h5,.container-fluid.print h6{
+	font-size: 20px!important;
+	line-height: 25px
+}
+.container-fluid.print h4{
+    margin-top:30px   
+}
