@@ -700,6 +700,9 @@ function get_branch(){
 			value = $(this).val();
 		}
 	})
+	if(!value){
+		value = '没有特别关注的主题'
+	}
 	return short_branch(value)
 }
 
@@ -751,6 +754,10 @@ function next_question(question_id){
 					next_question = db.questions({branch:question.branch,id:{'>':question_id}}).first();
 			})
 		}
+	}
+	if(next_question.id==360){
+		submit();
+		return
 	}
 	$(".question-outer").hide();
 	if($(".question-outer[data-id='"+next_question.id+"']").length>0){
